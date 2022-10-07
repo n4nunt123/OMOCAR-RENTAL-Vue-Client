@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a#logout-button, a#username {
+  cursor: pointer;
+  color: white;
+}
+
+section.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.landing-transicion {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  height: 7vh;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: slategray;
+}
+
+#logout-button {
+  color: white;
+  text-decoration: none;
+}
+
+.login-register-section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#register {
+  padding: 5%;
+  background-color: #282726;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+}
+
+#register h3 {
+  text-align: center;
+  margin-bottom:9%;
+  color:white;
+}
+
+#login {
+  padding: 5%;
+  background-color: white;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+#login h3 {
+  text-align: center;
+  margin-bottom:9%;
+  color:black;
+}
+
+div.landing-dark {
+  padding: 5%;
+  background-color: #282726;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.landing-white {
+  padding: 5%;
+  background-color: white;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3#title-trans {
+  margin-top: 5%;
+}
+
+div#card-transportation, div#card-wishlist {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+div.three-by-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.trans-col {
+  padding: 0;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+div.trans-col:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.filter-card {
+  padding: 0;
+  margin-left: 2em;
+  margin-bottom: 5%;
+  height: auto;
+}
+
+div.filter-area {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
